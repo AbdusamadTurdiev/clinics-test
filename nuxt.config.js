@@ -3,7 +3,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'Clinics - SPA',
+    title: 'СПАРК',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,6 +16,11 @@ module.exports = {
         href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
       }
     ]
+  },
+  mode: 'spa',
+  modules: ['@nuxtjs/axios'],
+  axios: {
+    baseURL: 'http://212.42.46.189:11009/v1'
   },
   plugins: ['~/plugins/vuetify.js'],
   css: ['~/assets/style/app.styl'],

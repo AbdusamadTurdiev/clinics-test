@@ -34,7 +34,7 @@
 export default {
   data () {
     return {
-      drawer: true,
+      drawer: null,
       fixed: false,
       title: 'СПАРК',
       items: [

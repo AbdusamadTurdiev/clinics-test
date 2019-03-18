@@ -2,7 +2,7 @@
   <v-layout justify-center align-center>
     <v-flex xs12 sm6>
       <v-card>
-        <v-img :src="mainImage" aspect-ratio="2"></v-img>
+        <v-img src="/main-img.png" aspect-ratio="2"></v-img>
         <v-card-text>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga vitae quasi velit
@@ -22,15 +22,10 @@
 </template>
 
 <script>
-import image from '~/assets/main-img.png'
-
 export default {
-  data: () => ({
-    mainImage: image
-  }),
   head () {
     return {
-      title: 'Главная'
+      title: 'Главная - СПАРК'
     }
   }
 }
