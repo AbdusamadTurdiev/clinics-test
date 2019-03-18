@@ -1,6 +1,6 @@
 <template>
   <v-layout justify-center align-center>
-    <v-flex xs12 sm6>
+    <v-flex xs12 sm8>
       <v-card>
         <v-img src="/main-img.png" aspect-ratio="2"></v-img>
         <v-card-text>

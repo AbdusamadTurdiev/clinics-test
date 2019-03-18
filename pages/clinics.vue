@@ -1,6 +1,6 @@
 <template>
   <v-layout justify-center align-center>
-    <v-flex xs12 sm6>
+    <v-flex xs12 sm10>
       <Clinic-Card v-for="(clinic, index) in clinics" :key="index" :clinic="clinic"></Clinic-Card>
       <h3 class="general-price font-weight-black">
         Общая сумма выбраных услуг: {{ generalPrice }} руб.
